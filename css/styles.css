@@ -72,20 +72,11 @@ img{
     display: flex;
     align-items: center;
 }
-.logo-studio{
-    color: var(--logo-black);
-    font-size: 26px;
-    font-family: var(--logo-font);
-    letter-spacing: 0,03em;
-    font-style: normal;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: 1.192;
-
+.header__logo{
     margin-right: 93px;
+    color: var(--logo-black);
 }
-.logo-web{
-    color: var(--brand-blue);
+.logo{
     font-size: 26px;
     font-family: var(--logo-font);
     letter-spacing: 0,03em;
@@ -94,8 +85,11 @@ img{
     text-decoration: none;
     line-height: 1.192;
 }
+.logo__span{
+    color: var(--brand-blue);
+    }
 
-.header-nav{
+.navigation__list{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 500;
@@ -108,8 +102,8 @@ img{
     display: flex;
     align-items: center;
     }
-.header-nav:hover,
-.header-nav:focus{
+.navigation__list:hover,
+.navigation__list:focus{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 500;
@@ -121,7 +115,7 @@ img{
     text-decoration: none;
     }
 
-.header-nav-item{
+.navigation__link{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 500;
@@ -135,14 +129,14 @@ img{
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-nav-item:hover,
-.header-nav-item:focus{
+.navigation__link:hover,
+.navigation__link:focus{
     color: var(--brand-blue);
 }
-.header-nav-list:not(:last-child){
+.navigation__item:not(:last-child){
     margin-right: 46px;
 }
-.header-nav-underline::after{
+.navigation__link--active::after{
     content: "";
     height: 4px;
     width: 100%;
@@ -155,14 +149,14 @@ img{
 
     transform: translateY(33px);
 }
-.header-nav-underline{
+.navigation__link--active{
     color: var(--brand-blue);
 }
-.header-contacts{
+.contact{
     display: flex;
     list-style: none;
 }
-.header-contacts-item{
+.contact__link{
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 500;
@@ -175,18 +169,18 @@ img{
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-.header-contacts-item:hover,
-.header-contacts-item:focus{
+.contact__link:hover,
+.contact__link:focus{
     color: var(--brand-blue);
     fill: var(--brand-blue);
 }
-.header .header-contacts{
+.header .contact{
     margin-left: auto;
 }
-.header-contacts-list:not(:last-child){
+.contact__item:not(:last-child){
     margin-right: 50px;
 }
-.contact-icon{
+.contact__icon{
     margin-right: 10px;
 }
 
