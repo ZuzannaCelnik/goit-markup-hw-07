@@ -13,3 +13,48 @@
     --logo-font: "Roboto", sans-serif;
     --text-font: "Raleway", sans-serif;
 }
+body {
+    font-family: var(--text-font);
+    font-weight: 400;
+    color: var(--main-black);
+    margin: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    width: 1200px;
+    padding: 0px 15px;
+    align-items: center;
+    margin: auto;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list {
+    list-style: none;
+}
