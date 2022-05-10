@@ -9,29 +9,30 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1600px;
+
+    & .container {
+            width: 696px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    
+        &__title {
+            font-size: 44px;
+            font-family: var(--text-font);
+            font-weight: 900;
+            letter-spacing: 00.06em;
+            line-height: 1.364;
+            color: var(--white);
+            text-transform: uppercase;
+    
+            margin-bottom: 30px;
+        }
+    
+        &__button {
+            margin-right: auto;
+            margin-left: auto;
+        }
 }
 
-.hero .container {
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.hero__title {
-    font-size: 44px;
-    font-family: var(--text-font);
-    font-weight: 900;
-    letter-spacing: 00.06em;
-    line-height: 1.364;
-    color: var(--white);
-    text-transform: uppercase;
-
-    margin-bottom: 30px;
-}
-
-.hero__button {
-    margin-right: auto;
-    margin-left: auto;
-}
 

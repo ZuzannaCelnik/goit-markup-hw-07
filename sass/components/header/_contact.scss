@@ -1,6 +1,18 @@
 .contact {
     display: flex;
     list-style: none;
+
+.header & {
+        margin-left: auto;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
+
+    &__icon {
+        margin-right: 10px;
+    }
 }
 
 .contact__link {
@@ -15,22 +27,13 @@
     fill: var(--main-grey);
 
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--brand-blue);
+        fill: var(--brand-blue);
+    }
 }
 
-.contact__link:hover,
-.contact__link:focus {
-    color: var(--brand-blue);
-    fill: var(--brand-blue);
-}
 
-.header .contact {
-    margin-left: auto;
-}
 
-.contact__item:not(:last-child) {
-    margin-right: 50px;
-}
-
-.contact__icon {
-    margin-right: 10px;
-}

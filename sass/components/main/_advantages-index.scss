@@ -1,20 +1,17 @@
 .advantages {
     padding-top: 94px;
     padding-bottom: 94px;
-}
 
-.advantages .advantages__list {
+& .advantages__list {
     width: 1170px;
     list-style: none;
     display: flex;
     justify-content: center;
 }
-
-.advantages__item:not(:last-child) {
+&__item:not(:last-child) {
     margin-right: 30px;
 }
-
-.advantages__header {
+&__header {
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 700;
@@ -24,8 +21,7 @@
 
     margin-bottom: 10px;
 }
-
-.advantages__text {
+&__text {
     font-family: var(--text-font);
     font-size: 14px;
     font-weight: 400;
@@ -34,49 +30,11 @@
     line-height: 1.714;
     white-space: pre;
 }
-
-.advantages__icon {
+&__icon {
     background-color: var(--background-colour-team);
     width: 270px;
     height: 120px;
     padding: 25px 100px;
     margin-bottom: 30px;
 }
-
-/* index - czym się zajmuje */
-
-.activities,
-.activities__list {
-    display: flex;
-    justify-content: center;
-}
-
-.activities__title {
-    margin-bottom: 50px;
-}
-
-.activities__item:not(:last-child) {
-    margin-right: 30px;
-}
-
-.activities__container {
-    position: relative;
-}
-
-.activities__container>.activities__label {
-    text-transform: uppercase;
-    color: var(--white);
-    font-family: var(--text-font);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.143;
-    letter-spacing: 3%;
-    text-align: center;
-
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    background-color: rgba(47, 48, 58, 0.8);
-    padding: 27px 91px;
-    width: 100%;
 }

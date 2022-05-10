@@ -1,13 +1,14 @@
-.footer__company {
+.footer{
+&__company {
     padding-top: 60px;
     margin-right: 70px;
 }
 
-.footer__logo {
+&__logo {
     color: var(--white);
     margin-bottom: 20px;
 }
-
+}
 .address {
     color: var(--white);
     font-family: var(--text-font);
@@ -31,22 +32,20 @@
     font-size: 14px;
     letter-spacing: 3%;
     line-height: 1.714;
-
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact__footer:hover,
-.contact__footer:focus {
-    color: var(--brand-blue);
-    text-decoration: none;
-    font-family: var(--text-font);
-    font-weight: 400;
-    font-size: 14px;
-    font-style: normal;
-    letter-spacing: 0.03em;
-    line-height: 1.714;
+    &:hover,
+    &:focus {
+        color: var(--brand-blue);
+        text-decoration: none;
+        font-family: var(--text-font);
+        font-weight: 400;
+        font-size: 14px;
+        font-style: normal;
+        letter-spacing: 0.03em;
+        line-height: 1.714;    
+    }
 }
-
 .footer__address:not(:last-child) {
     margin-bottom: 9px;
 }
